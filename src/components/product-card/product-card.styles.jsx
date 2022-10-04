@@ -27,6 +27,7 @@ export const ProductCardContainer = styled.div`
       min-width: unset;
       padding: 0 10px;
       border-radius: 13px;
+      font-size: small;
     }
   }
 
