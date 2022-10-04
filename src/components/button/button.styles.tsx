@@ -26,10 +26,15 @@ export const BaseButton = styled.button`
     color: black;
     border: 1px solid black;
   }
+
+  @media screen and (max-width: 800px) {
+    padding: 0 20px 0 20px;
+    margin-right: 10px;
+  }
 `;
 
 export const GoogleSignInButton = styled(BaseButton)`
-  background-color: #4285f4;
+  background-color: green;
   color: white;
 
   &:hover {
