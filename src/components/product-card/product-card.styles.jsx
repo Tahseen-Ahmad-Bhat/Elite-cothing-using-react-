@@ -8,11 +8,19 @@ export const ProductCardContainer = styled.div`
   align-items: center;
   position: relative;
 
+  @media screen and (max-width: 800px) {
+    height: 250px;
+  }
+
   img {
     width: 100%;
     height: 95%;
     object-fit: cover;
     margin-bottom: 5px;
+
+    @media screen and (max-width: 800px) {
+      height: 85%;
+    }
   }
 
   button {
@@ -28,6 +36,7 @@ export const ProductCardContainer = styled.div`
       padding: 0 10px;
       border-radius: 13px;
       font-size: small;
+      top: 155px;
     }
   }
 
@@ -63,6 +72,7 @@ export const Footer = styled.div`
   display: flex;
   justify-content: space-between;
   font-size: 18px;
+  font-size: small;
 `;
 
 export const Name = styled.div`
