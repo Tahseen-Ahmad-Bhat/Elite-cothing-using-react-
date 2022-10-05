@@ -72,7 +72,10 @@ export const Footer = styled.div`
   display: flex;
   justify-content: space-between;
   font-size: 18px;
-  font-size: small;
+
+  @media screen and (max-width: 800px) {
+    font-size: small;
+  }
 `;
 
 export const Name = styled.div`
